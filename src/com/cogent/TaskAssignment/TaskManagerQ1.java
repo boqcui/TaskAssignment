@@ -8,8 +8,8 @@ package com.cogent.TaskAssignment;
  * @date: Jan 16, 2023
  */
 public class TaskManagerQ1 {
-	private static Task[] tasks;
-	private static int pointer;
+	private Task[] tasks;
+	private int pointer;
 	
 	public TaskManagerQ1() {
 		tasks = new Task[2];
